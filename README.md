@@ -32,7 +32,7 @@ The input data must be in `.npy` format and placed in `./data`.
  
  The following command will run the phylogenetic inference on test data.
 
-`snj -data test -seed 1 -n_i 10 -n_s 5 n_o 3`
+`snj -data test -seed 1 -n_i 10 -n_s 5 -n_o 3`
 
 ## Outputs
 SNJ produces the following files in `./results`:
