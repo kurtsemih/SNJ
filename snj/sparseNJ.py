@@ -325,7 +325,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-data', required=True, help=' ds1 | ds2 | ... | ds8 | virus ')
     parser.add_argument('-seed', required=True, help=' 5 | 10 | 20  ')
-    parser.add_argument('-i_l', required=True, help=' 50, 150, 250, 350 ')
+    parser.add_argument('-n_i', required=True, help=' 50, 150, 250, 350 ')
     parser.add_argument('-n_s', required=True, help=' 5, 10, 15, 20, 25 ')
     parser.add_argument('-n_o', required=True, help=' 1, 3, 5, 7, 9')
     args = parser.parse_args()
@@ -337,7 +337,7 @@ def main():
     global n_leaves, upp_limit, num_of_ort, data_onehot, computed_distances, first_dfs_subtree_sizes, \
         first_dfs_subtree_leaves, first_parent_array, root_centroid_dict, centroidMarked, stop_node_dict, MAXN, seq_length
     n_leaves = data.shape[0]
-    initial_n_leaves = int(args.i_l)
+    initial_n_leaves = int(args.n_i)
     upp_limit = int(args.n_s)
     num_of_ort = int(args.n_o)
     num_of_heldout = n_leaves - initial_n_leaves
