@@ -4,7 +4,7 @@ Sparse Neighbor Joining: rapid phylogenetic inference using a sparse distance ma
 ## Workflow
 Please see pseudo code:
 
-![snj_pseudo_code](https://github.com/kurtsemih/SNJ/assets/68644299/4ecdd511-a9c7-430e-bc8e-93f2e93786f8)
+![git_pseudo_code](https://github.com/kurtsemih/SNJ/assets/68644299/ee2eeac1-b632-4d84-a7b4-cd5974b86d09)
 
 
 ## Installation
@@ -22,11 +22,11 @@ The input data must be in `.npy` format and placed in `./data`.
 
 `-seed` Number of seeds. 
 
-`-n_i` Number of initial leaves.
+`-n_i` Number of initial leaves. Recommended: `sqrt(n log n)` for `n` taxa
 
-`-n_s` Number of sampled leaves.
+`-n_s` Number of sampled leaves. Recommended: `log n` for `n` taxa
 
-`-n_o` Number of orienting leaves.
+`-n_o` Number of orienting leaves. Recommended: `3`
 
  #### Example usage with test data:
  
