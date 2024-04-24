@@ -1,11 +1,6 @@
 # SNJ
 Sparse Neighbor Joining: rapid phylogenetic inference using a sparse distance matrix.
 
-## Workflow
-Please see the pseudo code:
-
-![git_pseudo_code](https://github.com/kurtsemih/SNJ/assets/68644299/ee2eeac1-b632-4d84-a7b4-cd5974b86d09)
-
 
 ## Installation
 
