@@ -13,6 +13,10 @@ For installation, simply download this repo and run the following commands. **Py
 
 The input data must be in `.npy` format and placed in `./data`.
 
+Use `-data` flag to input your data.
+
+E.g., `-data inputdata` for `./data/inputdata.npy`
+
 ### Hyperparameters
 
 `-seed` Number of seeds. 
