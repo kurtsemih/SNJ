@@ -36,10 +36,7 @@ E.g., `-data inputdata` for `./data/inputdata.npy`
 ## Outputs
 SNJ produces the following files in `./results`:
 
-`inputdata_SNJ_tree_#.pickle` The inferred phylogenetic tree for `inputdata` and seed `#`. 
-
-It is possible to obtain the tree in `.nx` format via:
- `pickle.load(open(inputdata_SNJ_tree_#.pickle, 'rb'))`
+`inputdata_SNJ_tree_#.nw` The inferred phylogenetic tree for `inputdata` and seed `#`, in `.nw` format . 
 
 
 See [Wiki](https://github.com/kurtsemih/copyVAE/wiki) for more details.
