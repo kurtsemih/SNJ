@@ -2,3 +2,5 @@ numpy
 networkx
 scikit-bio
 dendropy
+ete3
+newick
