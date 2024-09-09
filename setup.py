@@ -19,6 +19,7 @@ setup(
     entry_points = {
         'console_scripts': [
             'snj = snj.sparseNJ:main',
+            'snj_pw = snj.sparseNJ_pw:main',
         ],
     },
     install_requires = required,
