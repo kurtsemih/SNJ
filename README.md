@@ -29,9 +29,13 @@ E.g., `-data inputdata` for `./data/inputdata.npy`
 
  #### Example usage with test data:
  
- The following command will run the phylogenetic inference on test data.
+ The following command will run the phylogenetic inference on test data:
 
 `snj -data test -seed 1 -n_i 10 -n_s 5 -n_o 3`
+
+If the input data is unaligned, then use `snj_pw` command: 
+
+`snj_pw -data test -seed 1 -n_i 10 -n_s 5 -n_o 3`
 
 ## Outputs
 SNJ produces the following files in `./results`:
